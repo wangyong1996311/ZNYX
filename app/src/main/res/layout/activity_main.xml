@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/mdw">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/layout_top_title"></include>
+        <ListView
+            android:id="@+id/iv_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@null" />
+        <com.mingrisoft.yysb.floatbutton.DragFloatActionButton
+            android:id="@+id/fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:onClick="startListenUI"
+            android:src="@drawable/mk"
+            app:backgroundTint="#808080"
+            app:borderWidth="0dp"
+            app:rippleColor="#008577" />
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/nav"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/layout_head"
+        app:menu="@menu/menu_navigation"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

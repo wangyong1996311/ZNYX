@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="primary">#3C515C</color>
+    <color name="primary_dark">#142E3C</color>
+    <color name="accent">#40C4FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="text_enabled">#FFFFFFFF</color>
+    <color name="text_disabled">#4DFFFFFF</color>
+
+    <color name="icon_enabled">#FFFFFFFF</color>
+    <color name="icon_disabled">#FF63727B</color>
+
+    <color name="medium_text_enabled">#FF000000</color>
+    <color name="medium_text_disabled">#4D000000</color>
+
+    <color name="light_blue_500">#03A9F4</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="teal_500">#009688</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="light_green_500">#8BC34A</color>
+
+    <integer-array name="custom_tab_colors">
+        <item>@color/light_blue_500</item>
+        <item>@color/cyan_500</item>
+        <item>@color/teal_500</item>
+        <item>@color/green_500</item>
+        <item>@color/light_green_500</item>
+    </integer-array>
+
+    <color name="gray_text_dark">#292929</color>
+    <color name="gray_text_light">#979797</color>
+
+    <color name="line_color">#e7e7e7</color>
+    <color name="content_background">#f2f2f2</color>
+    <color name="solar_background">#009988</color>
+    <!--smartTableColor-->
+    <color name="content_bg">#D0D0D0</color>
+    <color name="title_background">#AEDD81</color>
+
+    <!-- 常用颜色值 -->
+    <!--<color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>-->
+    <color name="black_alpha_128">#80000000</color>
+    <color name="list_item_background_pressed">#FCFCFC</color>
+
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+
+    <!--  created by  fei -->
+    <color name="text_secondary_color">#9d9d9d</color>
+
+    <!-- 新版登录模块-->
+    <color name="login_line_color">#dededf</color>
+    <color name="login_input_active">#31b968</color>
+    <color name="login_other_color">#cacaca</color>
+    <color name="account_input_bg_color">#33ffffff</color>
+    <color name="account_lock_bg">#ff43815c</color>
+    <color name="account_lock_font_color">#FF68997C</color>
+    <color name="account_input_color">#c9c9c9</color>
+    <color name="account_pressed_true">#14b94d</color>
+
+    <color name="bg_press">#ebebeb</color>\
+    <color name="bg_press_material">#d4d4d4</color>
+</resources>
